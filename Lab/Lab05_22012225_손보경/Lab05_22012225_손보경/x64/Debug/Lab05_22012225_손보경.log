@@ -1,0 +1,13 @@
+﻿  Date.cpp
+D:\C++\Lab05_22012225_손보경\Lab05_22012225_손보경\Date.cpp(36,3): warning C4551: 함수 호출에 인수 목록이 없습니다.
+D:\C++\Lab05_22012225_손보경\Lab05_22012225_손보경\Date.cpp(53,3): warning C4551: 함수 호출에 인수 목록이 없습니다.
+  main.cpp
+D:\C++\Lab05_22012225_손보경\Lab05_22012225_손보경\main.cpp(20,1): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+  Mystring.cpp
+  Person.cpp
+  Student.cpp
+  StudentArray.cpp
+D:\C++\Lab05_22012225_손보경\Lab05_22012225_손보경\StudentArray.cpp(37,3): warning C4551: 함수 호출에 인수 목록이 없습니다.
+  코드를 생성하고 있습니다...
+D:\C++\Lab05_22012225_손보경\Lab05_22012225_손보경\StudentArray.cpp(39): warning C4715: 'StudentArray::operator[]': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  Lab05_22012225_손보경.vcxproj -> D:\C++\Lab05_22012225_손보경\x64\Debug\Lab05_22012225_손보경.exe

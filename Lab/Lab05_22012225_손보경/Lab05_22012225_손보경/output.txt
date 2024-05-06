@@ -1,0 +1,60 @@
+Initializing student array (num_students: 10)
+Student [ st_id : 11921, name :  Sxggbw, dept :    DUX, birth date: (2718-12-23) , GPA :  23.91
+Student [ st_id : 23823, name : Ffozvsr, dept :   REPG, birth date: (2673- 9-22) , GPA :  99.12
+Student [ st_id : 19813, name :   Xpnrv, dept :    WCY, birth date: (2778- 5-29) , GPA :  26.62
+Student [ st_id : 21059, name :    Ycqp, dept :    EFF, birth date: (2890-10-5) , GPA :  90.40
+Student [ st_id : 23193, name : Zimkkas, dept :   ENZK, birth date: (2931- 5-19) , GPA :  35.48
+Student [ st_id : 14911, name :   Cfxtl, dept :   SFAD, birth date: (2658- 1-11) , GPA :  61.18
+Student [ st_id : 39564, name :    Oefx, dept :    EJU, birth date: (2573-10-21) , GPA :  87.45
+Student [ st_id : 44380, name : Paboygp, dept :   FPBN, birth date: (2724-11-11) , GPA :  23.55
+Student [ st_id : 39649, name : Lvrvipy, dept :    HWQ, birth date: (2422-11-27) , GPA :  22.87
+Student [ st_id : 22618, name : Qqpmxuj, dept :    VAO, birth date: (2595-10-7) , GPA :  25.91
+
+Sorting studentArray by student id : 
+Student [ st_id : 11921, name :  Sxggbw, dept :    DUX, birth date: (2718-12-23) , GPA :  23.91
+Student [ st_id : 14911, name :   Cfxtl, dept :   SFAD, birth date: (2658- 1-11) , GPA :  61.18
+Student [ st_id : 19813, name :   Xpnrv, dept :    WCY, birth date: (2778- 5-29) , GPA :  26.62
+Student [ st_id : 21059, name :    Ycqp, dept :    EFF, birth date: (2890-10-5) , GPA :  90.40
+Student [ st_id : 22618, name : Qqpmxuj, dept :    VAO, birth date: (2595-10-7) , GPA :  25.91
+Student [ st_id : 23193, name : Zimkkas, dept :   ENZK, birth date: (2931- 5-19) , GPA :  35.48
+Student [ st_id : 23823, name : Ffozvsr, dept :   REPG, birth date: (2673- 9-22) , GPA :  99.12
+Student [ st_id : 39564, name :    Oefx, dept :    EJU, birth date: (2573-10-21) , GPA :  87.45
+Student [ st_id : 39649, name : Lvrvipy, dept :    HWQ, birth date: (2422-11-27) , GPA :  22.87
+Student [ st_id : 44380, name : Paboygp, dept :   FPBN, birth date: (2724-11-11) , GPA :  23.55
+
+Sorting studentArray by student name : 
+Student [ st_id : 14911, name :   Cfxtl, dept :   SFAD, birth date: (2658- 1-11) , GPA :  61.18
+Student [ st_id : 23823, name : Ffozvsr, dept :   REPG, birth date: (2673- 9-22) , GPA :  99.12
+Student [ st_id : 39649, name : Lvrvipy, dept :    HWQ, birth date: (2422-11-27) , GPA :  22.87
+Student [ st_id : 39564, name :    Oefx, dept :    EJU, birth date: (2573-10-21) , GPA :  87.45
+Student [ st_id : 44380, name : Paboygp, dept :   FPBN, birth date: (2724-11-11) , GPA :  23.55
+Student [ st_id : 22618, name : Qqpmxuj, dept :    VAO, birth date: (2595-10-7) , GPA :  25.91
+Student [ st_id : 11921, name :  Sxggbw, dept :    DUX, birth date: (2718-12-23) , GPA :  23.91
+Student [ st_id : 19813, name :   Xpnrv, dept :    WCY, birth date: (2778- 5-29) , GPA :  26.62
+Student [ st_id : 21059, name :    Ycqp, dept :    EFF, birth date: (2890-10-5) , GPA :  90.40
+Student [ st_id : 23193, name : Zimkkas, dept :   ENZK, birth date: (2931- 5-19) , GPA :  35.48
+
+Sorting studentArray by GPA : 
+Student [ st_id : 23823, name : Ffozvsr, dept :   REPG, birth date: (2673- 9-22) , GPA :  99.12
+Student [ st_id : 21059, name :    Ycqp, dept :    EFF, birth date: (2890-10-5) , GPA :  90.40
+Student [ st_id : 39564, name :    Oefx, dept :    EJU, birth date: (2573-10-21) , GPA :  87.45
+Student [ st_id : 14911, name :   Cfxtl, dept :   SFAD, birth date: (2658- 1-11) , GPA :  61.18
+Student [ st_id : 23193, name : Zimkkas, dept :   ENZK, birth date: (2931- 5-19) , GPA :  35.48
+Student [ st_id : 19813, name :   Xpnrv, dept :    WCY, birth date: (2778- 5-29) , GPA :  26.62
+Student [ st_id : 22618, name : Qqpmxuj, dept :    VAO, birth date: (2595-10-7) , GPA :  25.91
+Student [ st_id : 11921, name :  Sxggbw, dept :    DUX, birth date: (2718-12-23) , GPA :  23.91
+Student [ st_id : 44380, name : Paboygp, dept :   FPBN, birth date: (2724-11-11) , GPA :  23.55
+Student [ st_id : 39649, name : Lvrvipy, dept :    HWQ, birth date: (2422-11-27) , GPA :  22.87
+
+Sorting studentArray by BirthDate : 
+Student [ st_id : 39649, name : Lvrvipy, dept :    HWQ, birth date: (2422-11-27) , GPA :  22.87
+Student [ st_id : 39564, name :    Oefx, dept :    EJU, birth date: (2573-10-21) , GPA :  87.45
+Student [ st_id : 22618, name : Qqpmxuj, dept :    VAO, birth date: (2595-10-7) , GPA :  25.91
+Student [ st_id : 14911, name :   Cfxtl, dept :   SFAD, birth date: (2658- 1-11) , GPA :  61.18
+Student [ st_id : 23823, name : Ffozvsr, dept :   REPG, birth date: (2673- 9-22) , GPA :  99.12
+Student [ st_id : 11921, name :  Sxggbw, dept :    DUX, birth date: (2718-12-23) , GPA :  23.91
+Student [ st_id : 44380, name : Paboygp, dept :   FPBN, birth date: (2724-11-11) , GPA :  23.55
+Student [ st_id : 19813, name :   Xpnrv, dept :    WCY, birth date: (2778- 5-29) , GPA :  26.62
+Student [ st_id : 21059, name :    Ycqp, dept :    EFF, birth date: (2890-10-5) , GPA :  90.40
+Student [ st_id : 23193, name : Zimkkas, dept :   ENZK, birth date: (2931- 5-19) , GPA :  35.48
+
