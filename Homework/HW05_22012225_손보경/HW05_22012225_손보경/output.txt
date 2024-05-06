@@ -1,0 +1,7 @@
+List of shapes using operator<<() friend function 
+     Shape : pos (1, 1), angle ( 0.00) , color_RGB(00,00,00)
+
+00Red_Elps : pos (8, 8), angle (00.00) , color_RGB(FF,00,00) , radius ( 3.00, 4.00 ),  ellipse_area (37.70 )
+
+Blue_Elp_Cyl : pos (9, 9), angle (00.00 ), color_ RGB(00,00,FF), radius (5.00, 6.00), height ( 7.00 ), area ( 34.70), volume ( 659.73)
+

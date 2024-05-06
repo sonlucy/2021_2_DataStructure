@@ -1,0 +1,36 @@
+Elements in studentArray after initialization :
+Student [ st_id: 21811000, name: Kim, G-M, gpa: 3.57 , date_of_birth:  (1990, 10, 5) , arrival: (3: 0: 30) ] 
+Student [ st_id: 21611075, name: Yoon, S-M, gpa: 4.37 , date_of_birth:  (1990, 4, 5) , arrival: (7: 30: 0) ] 
+Student [ st_id: 21411015, name: Hwang, S-S, gpa: 2.72 , date_of_birth:  (1989, 1, 10) , arrival: (2: 0: 50) ] 
+Student [ st_id: 21611054, name: Lee, K-M, gpa: 3.35 , date_of_birth:  (1991, 5, 15) , arrival: (5: 30: 0) ] 
+Student [ st_id: 21311340, name: Hong, G-M, gpa: 3.89 , date_of_birth:  (1990, 2, 5) , arrival: (1: 10: 0) ] 
+Student [ st_id:  6543, name: Jang, S-M, gpa: 4.42 , date_of_birth:  (2000, 5, 21) , arrival: (9: 20: 10) ] 
+Student [ st_id:  7080, name: Park, S-T, gpa: 4.12 , date_of_birth:  (2001, 5, 1) , arrival: (1: 20: 15) ] 
+Student [ st_id:  9564, name: Choi, Y-H, gpa: 3.85 , date_of_birth:  (1997, 6, 10) , arrival: (10: 0: 0) ] 
+Student [ st_id:  1000, name: Shin, D-J, gpa: 3.21 , date_of_birth:  (2003, 4, 5) , arrival: (11: 15: 10) ] 
+Student [ st_id:  8812, name: Ahn, S-B, gpa: 4.45 , date_of_birth:  (1997, 1, 1) , arrival: (2: 0: 5) ] 
+
+Elements in studentArray after sorting :
+Student [ st_id: 21311340, name: Hong, G-M, gpa: 3.89 , date_of_birth:  (1990, 2, 5) , arrival: (1: 10: 0) ] 
+Student [ st_id:  7080, name: Park, S-T, gpa: 4.12 , date_of_birth:  (2001, 5, 1) , arrival: (1: 20: 15) ] 
+Student [ st_id:  8812, name: Ahn, S-B, gpa: 4.45 , date_of_birth:  (1997, 1, 1) , arrival: (2: 0: 5) ] 
+Student [ st_id: 21411015, name: Hwang, S-S, gpa: 2.72 , date_of_birth:  (1989, 1, 10) , arrival: (2: 0: 50) ] 
+Student [ st_id: 21811000, name: Kim, G-M, gpa: 3.57 , date_of_birth:  (1990, 10, 5) , arrival: (3: 0: 30) ] 
+Student [ st_id: 21611054, name: Lee, K-M, gpa: 3.35 , date_of_birth:  (1991, 5, 15) , arrival: (5: 30: 0) ] 
+Student [ st_id: 21611075, name: Yoon, S-M, gpa: 4.37 , date_of_birth:  (1990, 4, 5) , arrival: (7: 30: 0) ] 
+Student [ st_id:  6543, name: Jang, S-M, gpa: 4.42 , date_of_birth:  (2000, 5, 21) , arrival: (9: 20: 10) ] 
+Student [ st_id:  9564, name: Choi, Y-H, gpa: 3.85 , date_of_birth:  (1997, 6, 10) , arrival: (10: 0: 0) ] 
+Student [ st_id:  1000, name: Shin, D-J, gpa: 3.21 , date_of_birth:  (2003, 4, 5) , arrival: (11: 15: 10) ] 
+
+Elements in studentArray after sorting :
+Student [ st_id:  1000, name: Shin, D-J, gpa: 3.21 , date_of_birth:  (2003, 4, 5) , arrival: (11: 15: 10) ] 
+Student [ st_id:  9564, name: Choi, Y-H, gpa: 3.85 , date_of_birth:  (1997, 6, 10) , arrival: (10: 0: 0) ] 
+Student [ st_id:  6543, name: Jang, S-M, gpa: 4.42 , date_of_birth:  (2000, 5, 21) , arrival: (9: 20: 10) ] 
+Student [ st_id: 21611075, name: Yoon, S-M, gpa: 4.37 , date_of_birth:  (1990, 4, 5) , arrival: (7: 30: 0) ] 
+Student [ st_id: 21611054, name: Lee, K-M, gpa: 3.35 , date_of_birth:  (1991, 5, 15) , arrival: (5: 30: 0) ] 
+Student [ st_id: 21811000, name: Kim, G-M, gpa: 3.57 , date_of_birth:  (1990, 10, 5) , arrival: (3: 0: 30) ] 
+Student [ st_id: 21411015, name: Hwang, S-S, gpa: 2.72 , date_of_birth:  (1989, 1, 10) , arrival: (2: 0: 50) ] 
+Student [ st_id:  8812, name: Ahn, S-B, gpa: 4.45 , date_of_birth:  (1997, 1, 1) , arrival: (2: 0: 5) ] 
+Student [ st_id:  7080, name: Park, S-T, gpa: 4.12 , date_of_birth:  (2001, 5, 1) , arrival: (1: 20: 15) ] 
+Student [ st_id: 21311340, name: Hong, G-M, gpa: 3.89 , date_of_birth:  (1990, 2, 5) , arrival: (1: 10: 0) ] 
+
