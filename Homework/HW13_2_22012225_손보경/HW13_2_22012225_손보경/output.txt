@@ -1,0 +1,55 @@
+Inserting vertices ..
+Inserted vertices: SL, CC, SC, SW, WJ, GR, DJ, DG, PH, GJ, BS, 
+Inserting edges ..
+Inserted edges: 
+Edge(SL, CC,   71), Edge(SL, SW,   34), Edge(CC, SL,   71), Edge(CC, SC,   79), Edge(CC, WJ,   47), 
+Edge(SC, CC,   79), Edge(SC, GR,   42), Edge(SW, SL,   34), Edge(SW, WJ,   84), Edge(SW, DJ,  109), 
+Edge(WJ, SW,   84), Edge(WJ, CC,   47), Edge(WJ, GR,   91), Edge(WJ, DG,  174), Edge(GR, WJ,   91), 
+Edge(GR, SC,   42), Edge(GR, PH,  200), Edge(DJ, SW,  109), Edge(DJ, DG,  120), Edge(DJ, GJ,  138), 
+Edge(DG, WJ,  174), Edge(DG, DJ,  120), Edge(DG, PH,   66), Edge(DG, GJ,  170), Edge(DG, BS,   87), 
+Edge(PH, GR,  200), Edge(PH, DG,   66), Edge(PH, BS,   93), Edge(GJ, DJ,  138), Edge(GJ, DG,  170), 
+Edge(GJ, BS,  202), Edge(BS, GJ,  202), Edge(BS, DG,   87), Edge(BS, PH,   93), 
+
+Print out Graph based on Adjacency List ..
+GRAPH_SIMPLE_USA_11_NODES with 11 vertices has following connectivity :
+ vertex ( SL) : Edge(SL, CC,   71) Edge(SL, SW,   34) 
+ vertex ( CC) : Edge(CC, SL,   71) Edge(CC, SC,   79) Edge(CC, WJ,   47) 
+ vertex ( SC) : Edge(SC, CC,   79) Edge(SC, GR,   42) 
+ vertex ( SW) : Edge(SW, SL,   34) Edge(SW, WJ,   84) Edge(SW, DJ,  109) 
+ vertex ( WJ) : Edge(WJ, SW,   84) Edge(WJ, CC,   47) Edge(WJ, GR,   91) Edge(WJ, DG,  174) 
+ vertex ( GR) : Edge(GR, WJ,   91) Edge(GR, SC,   42) Edge(GR, PH,  200) 
+ vertex ( DJ) : Edge(DJ, SW,  109) Edge(DJ, DG,  120) Edge(DJ, GJ,  138) 
+ vertex ( DG) : Edge(DG, WJ,  174) Edge(DG, DJ,  120) Edge(DG, PH,   66) Edge(DG, GJ,  170) Edge(DG, BS,   87) 
+ vertex ( PH) : Edge(PH, GR,  200) Edge(PH, DG,   66) Edge(PH, BS,   93) 
+ vertex ( GJ) : Edge(GJ, DJ,  138) Edge(GJ, DG,  170) Edge(GJ, BS,  202) 
+ vertex ( BS) : Edge(BS, GJ,  202) Edge(BS, DG,   87) Edge(BS, PH,   93) 
+
+Testing Breadth First Search with Dijkstra Algorithm
+Distance Matrix of Graph (GRAPH_SIMPLE_USA_11_NODES) :
+       |   SL   CC   SC   SW   WJ   GR   DJ   DG   PH   GJ   BS
+-------+-------------------------------------------------------
+   SL  |    0   71  +oo   34  +oo  +oo  +oo  +oo  +oo  +oo  +oo
+   CC  |   71    0   79  +oo   47  +oo  +oo  +oo  +oo  +oo  +oo
+   SC  |  +oo   79    0  +oo  +oo   42  +oo  +oo  +oo  +oo  +oo
+   SW  |   34  +oo  +oo    0   84  +oo  109  +oo  +oo  +oo  +oo
+   WJ  |  +oo   47  +oo   84    0   91  +oo  174  +oo  +oo  +oo
+   GR  |  +oo  +oo   42  +oo   91    0  +oo  +oo  200  +oo  +oo
+   DJ  |  +oo  +oo  +oo  109  +oo  +oo    0  120  +oo  138  +oo
+   DG  |  +oo  +oo  +oo  +oo  174  +oo  120    0   66  170   87
+   PH  |  +oo  +oo  +oo  +oo  +oo  200  +oo   66    0  +oo   93
+   GJ  |  +oo  +oo  +oo  +oo  +oo  +oo  138  170  +oo    0  202
+   BS  |  +oo  +oo  +oo  +oo  +oo  +oo  +oo   87   93  202    0
+
+
+Dijkstra Shortest Path Finding from CC to DJ .... 
+Dijkstra::Least Cost from Vertex (CC) at each round : 
+           |   SL   CC   SC   SW   WJ   GR   DJ   DG   PH   GJ   BS
+-----------+-------------------------------------------------------
+round [ 1] |   71    0   79  131   47  138  +oo  221  +oo  +oo  +oo ==> selected vertex : WJ
+round [ 2] |   71    0   79  105   47  138  +oo  221  +oo  +oo  +oo ==> selected vertex : SL
+round [ 3] |   71    0   79  105   47  121  +oo  221  +oo  +oo  +oo ==> selected vertex : SC
+round [ 4] |   71    0   79  105   47  121  214  221  +oo  +oo  +oo ==> selected vertex : SW
+round [ 5] |   71    0   79  105   47  121  214  221  321  +oo  +oo ==> selected vertex : GR
+round [ 6] |
+reached to the target node (DJ) at Least Cost = 214
+Path found by DijkstraShortestPath from CC to DJ : CC -> SL -> SW -> DJ
