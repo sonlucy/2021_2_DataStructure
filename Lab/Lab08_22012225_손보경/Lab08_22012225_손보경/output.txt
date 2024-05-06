@@ -1,0 +1,197 @@
+Insert Event(pri: 14, gen:  0, no:  0, title:  evt_00) ==> Size of Heap Priority Queue :   1
+Insert Event(pri: 13, gen:  1, no:  1, title:  evt_01) ==> Size of Heap Priority Queue :   2
+Insert Event(pri: 12, gen:  2, no:  2, title:  evt_02) ==> Size of Heap Priority Queue :   3
+Insert Event(pri: 11, gen:  3, no:  3, title:  evt_03) ==> Size of Heap Priority Queue :   4
+Insert Event(pri: 10, gen:  4, no:  4, title:  evt_04) ==> Size of Heap Priority Queue :   5
+Insert Event(pri:  9, gen:  5, no:  5, title:  evt_05) ==> Size of Heap Priority Queue :   6
+Insert Event(pri:  8, gen:  6, no:  6, title:  evt_06) ==> Size of Heap Priority Queue :   7
+Insert Event(pri:  7, gen:  7, no:  7, title:  evt_07) ==> Size of Heap Priority Queue :   8
+Insert Event(pri:  6, gen:  8, no:  8, title:  evt_08) ==> Size of Heap Priority Queue :   9
+Insert Event(pri:  5, gen:  9, no:  9, title:  evt_09) ==> Size of Heap Priority Queue :  10
+Insert Event(pri:  4, gen: 10, no: 10, title:  evt_10) ==> Size of Heap Priority Queue :  11
+Insert Event(pri:  3, gen: 11, no: 11, title:  evt_11) ==> Size of Heap Priority Queue :  12
+Insert Event(pri:  2, gen: 12, no: 12, title:  evt_12) ==> Size of Heap Priority Queue :  13
+Insert Event(pri:  1, gen: 13, no: 13, title:  evt_13) ==> Size of Heap Priority Queue :  14
+Insert Event(pri:  0, gen: 14, no: 14, title:  evt_14) ==> Size of Heap Priority Queue :  15
+Final status of insertions : 
+            [Key: 3, Event(pri:  3, gen: 11, no: 11, title:  evt_11)]
+        [Key: 2, Event(pri:  2, gen: 12, no: 12, title:  evt_12)]
+            [Key:10, Event(pri: 10, gen:  4, no:  4, title:  evt_04)]
+    [Key: 1, Event(pri:  1, gen: 13, no: 13, title:  evt_13)]
+            [Key: 9, Event(pri:  9, gen:  5, no:  5, title:  evt_05)]
+        [Key: 4, Event(pri:  4, gen: 10, no: 10, title:  evt_10)]
+            [Key:13, Event(pri: 13, gen:  1, no:  1, title:  evt_01)]
+[Key: 0, Event(pri:  0, gen: 14, no: 14, title:  evt_14)]
+            [Key: 7, Event(pri:  7, gen:  7, no:  7, title:  evt_07)]
+        [Key: 6, Event(pri:  6, gen:  8, no:  8, title:  evt_08)]
+            [Key:12, Event(pri: 12, gen:  2, no:  2, title:  evt_02)]
+    [Key: 5, Event(pri:  5, gen:  9, no:  9, title:  evt_09)]
+            [Key:11, Event(pri: 11, gen:  3, no:  3, title:  evt_03)]
+        [Key: 8, Event(pri:  8, gen:  6, no:  6, title:  evt_06)]
+            [Key:14, Event(pri: 14, gen:  0, no:  0, title:  evt_00)]
+
+Current top priority in Heap Priority Queue : [ 0, Event(pri:  0, gen: 14, no: 14, title:  evt_14)]
+Remove [ 0, Event(pri:  0, gen: 14, no: 14, title:  evt_14)]==> 14 elements remains.
+        [Key: 3, Event(pri:  3, gen: 11, no: 11, title:  evt_11)]
+            [Key:10, Event(pri: 10, gen:  4, no:  4, title:  evt_04)]
+    [Key: 2, Event(pri:  2, gen: 12, no: 12, title:  evt_12)]
+            [Key: 9, Event(pri:  9, gen:  5, no:  5, title:  evt_05)]
+        [Key: 4, Event(pri:  4, gen: 10, no: 10, title:  evt_10)]
+            [Key:13, Event(pri: 13, gen:  1, no:  1, title:  evt_01)]
+[Key: 1, Event(pri:  1, gen: 13, no: 13, title:  evt_13)]
+            [Key: 7, Event(pri:  7, gen:  7, no:  7, title:  evt_07)]
+        [Key: 6, Event(pri:  6, gen:  8, no:  8, title:  evt_08)]
+            [Key:12, Event(pri: 12, gen:  2, no:  2, title:  evt_02)]
+    [Key: 5, Event(pri:  5, gen:  9, no:  9, title:  evt_09)]
+            [Key:11, Event(pri: 11, gen:  3, no:  3, title:  evt_03)]
+        [Key: 8, Event(pri:  8, gen:  6, no:  6, title:  evt_06)]
+            [Key:14, Event(pri: 14, gen:  0, no:  0, title:  evt_00)]
+
+
+Current top priority in Heap Priority Queue : [ 1, Event(pri:  1, gen: 13, no: 13, title:  evt_13)]
+Remove [ 1, Event(pri:  1, gen: 13, no: 13, title:  evt_13)]==> 13 elements remains.
+        [Key:10, Event(pri: 10, gen:  4, no:  4, title:  evt_04)]
+    [Key: 3, Event(pri:  3, gen: 11, no: 11, title:  evt_11)]
+            [Key: 9, Event(pri:  9, gen:  5, no:  5, title:  evt_05)]
+        [Key: 4, Event(pri:  4, gen: 10, no: 10, title:  evt_10)]
+            [Key:13, Event(pri: 13, gen:  1, no:  1, title:  evt_01)]
+[Key: 2, Event(pri:  2, gen: 12, no: 12, title:  evt_12)]
+            [Key: 7, Event(pri:  7, gen:  7, no:  7, title:  evt_07)]
+        [Key: 6, Event(pri:  6, gen:  8, no:  8, title:  evt_08)]
+            [Key:12, Event(pri: 12, gen:  2, no:  2, title:  evt_02)]
+    [Key: 5, Event(pri:  5, gen:  9, no:  9, title:  evt_09)]
+            [Key:11, Event(pri: 11, gen:  3, no:  3, title:  evt_03)]
+        [Key: 8, Event(pri:  8, gen:  6, no:  6, title:  evt_06)]
+            [Key:14, Event(pri: 14, gen:  0, no:  0, title:  evt_00)]
+
+
+Current top priority in Heap Priority Queue : [ 2, Event(pri:  2, gen: 12, no: 12, title:  evt_12)]
+Remove [ 2, Event(pri:  2, gen: 12, no: 12, title:  evt_12)]==> 12 elements remains.
+        [Key:10, Event(pri: 10, gen:  4, no:  4, title:  evt_04)]
+    [Key: 4, Event(pri:  4, gen: 10, no: 10, title:  evt_10)]
+        [Key: 9, Event(pri:  9, gen:  5, no:  5, title:  evt_05)]
+            [Key:13, Event(pri: 13, gen:  1, no:  1, title:  evt_01)]
+[Key: 3, Event(pri:  3, gen: 11, no: 11, title:  evt_11)]
+            [Key: 7, Event(pri:  7, gen:  7, no:  7, title:  evt_07)]
+        [Key: 6, Event(pri:  6, gen:  8, no:  8, title:  evt_08)]
+            [Key:12, Event(pri: 12, gen:  2, no:  2, title:  evt_02)]
+    [Key: 5, Event(pri:  5, gen:  9, no:  9, title:  evt_09)]
+            [Key:11, Event(pri: 11, gen:  3, no:  3, title:  evt_03)]
+        [Key: 8, Event(pri:  8, gen:  6, no:  6, title:  evt_06)]
+            [Key:14, Event(pri: 14, gen:  0, no:  0, title:  evt_00)]
+
+
+Current top priority in Heap Priority Queue : [ 3, Event(pri:  3, gen: 11, no: 11, title:  evt_11)]
+Remove [ 3, Event(pri:  3, gen: 11, no: 11, title:  evt_11)]==> 11 elements remains.
+        [Key:10, Event(pri: 10, gen:  4, no:  4, title:  evt_04)]
+    [Key: 9, Event(pri:  9, gen:  5, no:  5, title:  evt_05)]
+        [Key:13, Event(pri: 13, gen:  1, no:  1, title:  evt_01)]
+[Key: 4, Event(pri:  4, gen: 10, no: 10, title:  evt_10)]
+            [Key: 7, Event(pri:  7, gen:  7, no:  7, title:  evt_07)]
+        [Key: 6, Event(pri:  6, gen:  8, no:  8, title:  evt_08)]
+            [Key:12, Event(pri: 12, gen:  2, no:  2, title:  evt_02)]
+    [Key: 5, Event(pri:  5, gen:  9, no:  9, title:  evt_09)]
+            [Key:11, Event(pri: 11, gen:  3, no:  3, title:  evt_03)]
+        [Key: 8, Event(pri:  8, gen:  6, no:  6, title:  evt_06)]
+            [Key:14, Event(pri: 14, gen:  0, no:  0, title:  evt_00)]
+
+
+Current top priority in Heap Priority Queue : [ 4, Event(pri:  4, gen: 10, no: 10, title:  evt_10)]
+Remove [ 4, Event(pri:  4, gen: 10, no: 10, title:  evt_10)]==> 10 elements remains.
+        [Key:10, Event(pri: 10, gen:  4, no:  4, title:  evt_04)]
+    [Key: 9, Event(pri:  9, gen:  5, no:  5, title:  evt_05)]
+        [Key:13, Event(pri: 13, gen:  1, no:  1, title:  evt_01)]
+[Key: 5, Event(pri:  5, gen:  9, no:  9, title:  evt_09)]
+        [Key: 7, Event(pri:  7, gen:  7, no:  7, title:  evt_07)]
+            [Key:12, Event(pri: 12, gen:  2, no:  2, title:  evt_02)]
+    [Key: 6, Event(pri:  6, gen:  8, no:  8, title:  evt_08)]
+            [Key:11, Event(pri: 11, gen:  3, no:  3, title:  evt_03)]
+        [Key: 8, Event(pri:  8, gen:  6, no:  6, title:  evt_06)]
+            [Key:14, Event(pri: 14, gen:  0, no:  0, title:  evt_00)]
+
+
+Current top priority in Heap Priority Queue : [ 5, Event(pri:  5, gen:  9, no:  9, title:  evt_09)]
+Remove [ 5, Event(pri:  5, gen:  9, no:  9, title:  evt_09)]==> 9 elements remains.
+        [Key:10, Event(pri: 10, gen:  4, no:  4, title:  evt_04)]
+    [Key: 9, Event(pri:  9, gen:  5, no:  5, title:  evt_05)]
+        [Key:13, Event(pri: 13, gen:  1, no:  1, title:  evt_01)]
+[Key: 6, Event(pri:  6, gen:  8, no:  8, title:  evt_08)]
+        [Key:12, Event(pri: 12, gen:  2, no:  2, title:  evt_02)]
+    [Key: 7, Event(pri:  7, gen:  7, no:  7, title:  evt_07)]
+            [Key:11, Event(pri: 11, gen:  3, no:  3, title:  evt_03)]
+        [Key: 8, Event(pri:  8, gen:  6, no:  6, title:  evt_06)]
+            [Key:14, Event(pri: 14, gen:  0, no:  0, title:  evt_00)]
+
+
+Current top priority in Heap Priority Queue : [ 6, Event(pri:  6, gen:  8, no:  8, title:  evt_08)]
+Remove [ 6, Event(pri:  6, gen:  8, no:  8, title:  evt_08)]==> 8 elements remains.
+        [Key:10, Event(pri: 10, gen:  4, no:  4, title:  evt_04)]
+    [Key: 9, Event(pri:  9, gen:  5, no:  5, title:  evt_05)]
+        [Key:13, Event(pri: 13, gen:  1, no:  1, title:  evt_01)]
+[Key: 7, Event(pri:  7, gen:  7, no:  7, title:  evt_07)]
+        [Key:12, Event(pri: 12, gen:  2, no:  2, title:  evt_02)]
+    [Key: 8, Event(pri:  8, gen:  6, no:  6, title:  evt_06)]
+        [Key:11, Event(pri: 11, gen:  3, no:  3, title:  evt_03)]
+            [Key:14, Event(pri: 14, gen:  0, no:  0, title:  evt_00)]
+
+
+Current top priority in Heap Priority Queue : [ 7, Event(pri:  7, gen:  7, no:  7, title:  evt_07)]
+Remove [ 7, Event(pri:  7, gen:  7, no:  7, title:  evt_07)]==> 7 elements remains.
+        [Key:10, Event(pri: 10, gen:  4, no:  4, title:  evt_04)]
+    [Key: 9, Event(pri:  9, gen:  5, no:  5, title:  evt_05)]
+        [Key:13, Event(pri: 13, gen:  1, no:  1, title:  evt_01)]
+[Key: 8, Event(pri:  8, gen:  6, no:  6, title:  evt_06)]
+        [Key:12, Event(pri: 12, gen:  2, no:  2, title:  evt_02)]
+    [Key:11, Event(pri: 11, gen:  3, no:  3, title:  evt_03)]
+        [Key:14, Event(pri: 14, gen:  0, no:  0, title:  evt_00)]
+
+
+Current top priority in Heap Priority Queue : [ 8, Event(pri:  8, gen:  6, no:  6, title:  evt_06)]
+Remove [ 8, Event(pri:  8, gen:  6, no:  6, title:  evt_06)]==> 6 elements remains.
+    [Key:10, Event(pri: 10, gen:  4, no:  4, title:  evt_04)]
+        [Key:13, Event(pri: 13, gen:  1, no:  1, title:  evt_01)]
+[Key: 9, Event(pri:  9, gen:  5, no:  5, title:  evt_05)]
+        [Key:12, Event(pri: 12, gen:  2, no:  2, title:  evt_02)]
+    [Key:11, Event(pri: 11, gen:  3, no:  3, title:  evt_03)]
+        [Key:14, Event(pri: 14, gen:  0, no:  0, title:  evt_00)]
+
+
+Current top priority in Heap Priority Queue : [ 9, Event(pri:  9, gen:  5, no:  5, title:  evt_05)]
+Remove [ 9, Event(pri:  9, gen:  5, no:  5, title:  evt_05)]==> 5 elements remains.
+    [Key:13, Event(pri: 13, gen:  1, no:  1, title:  evt_01)]
+[Key:10, Event(pri: 10, gen:  4, no:  4, title:  evt_04)]
+        [Key:12, Event(pri: 12, gen:  2, no:  2, title:  evt_02)]
+    [Key:11, Event(pri: 11, gen:  3, no:  3, title:  evt_03)]
+        [Key:14, Event(pri: 14, gen:  0, no:  0, title:  evt_00)]
+
+
+Current top priority in Heap Priority Queue : [10, Event(pri: 10, gen:  4, no:  4, title:  evt_04)]
+Remove [10, Event(pri: 10, gen:  4, no:  4, title:  evt_04)]==> 4 elements remains.
+    [Key:13, Event(pri: 13, gen:  1, no:  1, title:  evt_01)]
+[Key:11, Event(pri: 11, gen:  3, no:  3, title:  evt_03)]
+    [Key:12, Event(pri: 12, gen:  2, no:  2, title:  evt_02)]
+        [Key:14, Event(pri: 14, gen:  0, no:  0, title:  evt_00)]
+
+
+Current top priority in Heap Priority Queue : [11, Event(pri: 11, gen:  3, no:  3, title:  evt_03)]
+Remove [11, Event(pri: 11, gen:  3, no:  3, title:  evt_03)]==> 3 elements remains.
+    [Key:13, Event(pri: 13, gen:  1, no:  1, title:  evt_01)]
+[Key:12, Event(pri: 12, gen:  2, no:  2, title:  evt_02)]
+    [Key:14, Event(pri: 14, gen:  0, no:  0, title:  evt_00)]
+
+
+Current top priority in Heap Priority Queue : [12, Event(pri: 12, gen:  2, no:  2, title:  evt_02)]
+Remove [12, Event(pri: 12, gen:  2, no:  2, title:  evt_02)]==> 2 elements remains.
+[Key:13, Event(pri: 13, gen:  1, no:  1, title:  evt_01)]
+    [Key:14, Event(pri: 14, gen:  0, no:  0, title:  evt_00)]
+
+
+Current top priority in Heap Priority Queue : [13, Event(pri: 13, gen:  1, no:  1, title:  evt_01)]
+Remove [13, Event(pri: 13, gen:  1, no:  1, title:  evt_01)]==> 1 elements remains.
+[Key:14, Event(pri: 14, gen:  0, no:  0, title:  evt_00)]
+
+
+Current top priority in Heap Priority Queue : [14, Event(pri: 14, gen:  0, no:  0, title:  evt_00)]
+Remove [14, Event(pri: 14, gen:  0, no:  0, title:  evt_00)]==> 0 elements remains.
+CBT is EMPTY now !!
+
